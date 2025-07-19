@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>🚀 LeetCode AI Assistant</h1>
+        </header>
+        
+        <div class="problem-info" id="problemInfo">
+            <div class="status">Click to detect LeetCode problem...</div>
+        </div>
+        
+        <div class="actions">
+            <button id="getApproach" class="btn btn-primary">
+                📋 Get Approach
+            </button>
+            <button id="findEdgeCases" class="btn btn-secondary">
+                🎯 Find Edge Cases
+            </button>
+            <button id="getHint" class="btn btn-accent">
+                💡 Get Hint
+            </button>
+        </div>
+        
+        <div id="responseArea" class="response-area">
+            <div id="aiResponse" class="response-content"></div>
+        </div>
+    </div>
+    
+    <script src="popup.js"></script>
+</body>
+</html>
