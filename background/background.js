@@ -1,3 +1,3 @@
 chrome.runtime.onInstalled.addListener(() => {
-    console.log('LeetCode AI Assistant installed successfully!');
+    console.log('Chrome Extension installed successfully!');
 });
